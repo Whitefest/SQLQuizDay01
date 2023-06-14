@@ -89,7 +89,10 @@ select * from tbl_pengarang where nama like 'i%'
 select * from tbl_pengarang where nama like '%A%'
 
 --no 13c
-select * from tbl_pengarang where nama not like '%n'
+select * from tbl_pengarang where nama like '__a%'
+
+--no 13d
+select * from tbl_pengarang where nama not like 'n%'
 
 --no 14
 select * from tbl_pengarang as pengarang 
